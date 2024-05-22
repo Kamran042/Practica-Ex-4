@@ -1,0 +1,24 @@
+.add_form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 85px;
+    
+}
+
+.add_form input{
+    width: 100%;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+
+.add_form label{
+    margin-top: 20px;
+}
+
+.add_form button{
+    margin-top: 20px;
+    padding: 20px;
+}

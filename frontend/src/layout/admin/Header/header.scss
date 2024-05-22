@@ -1,0 +1,25 @@
+
+.headerAdmin{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 200px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.headerAdmin__right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.headerAdmin__left h1{
+    font-size: 30px;
+}
+
+.headerAdmin__right a{
+    color: black;
+    font-weight: 500;
+    font-size: 25px;
+}

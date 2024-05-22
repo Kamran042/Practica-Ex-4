@@ -1,0 +1,140 @@
+.products {
+  padding: 80px 0;
+}
+
+.products__top {
+  text-align: center;
+}
+
+.products__top h3 {
+  font-size: 13px;
+  color: #adb5bd;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.products__top h2 {
+  color: #000;
+  font-size: 40px;
+  font-weight: 900;
+  margin-bottom: 16px;
+}
+
+.products__top p {
+  max-width: 540px;
+  margin: 0 auto;
+  line-height: 1.7;
+  color: gray;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.products__grid__card__title {
+  padding: 0 50px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.products__grid__card__title h2 {
+  font-size: 18px;
+  margin-bottom: 0.5rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  color: inherit;
+}
+
+.products__grid__card__title p {
+  line-height: 1.4;
+  font-size: 13px;
+  color: #808080;
+  margin-bottom: 1.5rem !important;
+}
+
+.products__grid__card {
+  width: 380px;
+  padding: 0 15px;
+  transition: all 0.3s ease;
+  margin-top: 20px;
+}
+
+.products__grid__card__img {
+  width: 100%;
+  height: 420px;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.products__grid__card__img img {
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s ease;
+  object-fit: cover;
+}
+
+.products__grid__card:hover img {
+  transform: scale(1.2);
+  transition: all 0.3s ease;
+}
+
+.products__grid {
+  display: grid;
+  margin: 0 auto;
+  margin-top: 40px;
+  max-width: 1140px;
+  grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+}
+
+.products__grid__card__title__btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.products__grid__card__title__btns div,
+.products__grid__card__title__btns a {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.btn__info {
+  background-color: black;
+  color: white;
+}
+
+.btn__buy {
+  background-color: white;
+  color: black;
+}
+
+.products__search__sort {
+  max-width: 1140px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 0 auto;
+}
+
+.products__grid__card__title h3 {
+  margin: 10px 0;
+}
+
+.products__search__sort{
+  margin: 0 auto;
+  margin-top: 35px;
+  padding-left: 20px;
+}
+
+.products__search__sort input{
+  padding: 10px;
+  border-radius: 5px;
+}
